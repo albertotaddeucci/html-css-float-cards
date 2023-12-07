@@ -4,7 +4,7 @@
     box-sizing: border-box;
 
     /* test */
-    border: 1px solid rgba(255, 0, 0, 0.605);
+    /* border: 1px solid rgba(255, 0, 0, 0.605); */
 }
 
 .clearfix::after{
@@ -60,14 +60,18 @@ img{
 }
 
 .scheda .contatto{
-    color: rgb(142, 127, 255);
+    color: white;
     /* padding: 10px 5px 20px; */
     height: 120px;
     padding-top: 25px;
     background-color: black;
-    
-    
-    
-    
+           
 }
 
+.nome{
+    font-size: large;
+    font-weight: bold;
+}
+.email{
+    color: #36aef4;
+}
