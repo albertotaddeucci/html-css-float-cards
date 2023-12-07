@@ -33,8 +33,9 @@ section:first-child{
 
 h1{
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 1000;
     margin-bottom: 50px;
+    color: #e53170;
 }
 
 
@@ -46,7 +47,7 @@ h1{
 
 .scheda{
     margin-bottom: 20px;
-        padding: 20px;
+    padding: 20px;
     
     
 }
@@ -65,6 +66,10 @@ img{
     height: 120px;
     padding-top: 25px;
     background-color: black;
+    box-shadow:  5px  5px 5px #dedede,
+              -5px -5px 5px #dedede,
+               5px -5px 5px #dedede,
+              -5px  5px 5px #dedede;
            
 }
 
