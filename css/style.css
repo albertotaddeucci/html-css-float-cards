@@ -32,12 +32,11 @@ section:first-child{
 }
 
 h1{
-    font-size: 36px;
+    font-size: 46px;
     font-weight: 1000;
     margin-bottom: 50px;
     color: #e53170;
 }
-
 
 
 .riga .scheda{
@@ -67,16 +66,19 @@ img{
     padding-top: 25px;
     background-color: black;
     box-shadow:  5px  5px 5px #dedede,
-              -5px -5px 5px #dedede,
-               5px -5px 5px #dedede,
-              -5px  5px 5px #dedede;
-           
+                -5px -5px 5px #dedede,
+                 5px -5px 5px #dedede,
+                -5px  5px 5px #dedede;
+            
 }
 
 .nome{
     font-size: large;
-    font-weight: bold;
+    font-weight: 1000;
 }
-.email{
+
+
+a[href]{
     color: #36aef4;
+    text-decoration: none;
 }
